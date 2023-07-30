@@ -1,0 +1,11 @@
+framework module CheckoutAndPaymentUI {
+  umbrella header "CheckoutAndPaymentUI.h"
+
+  export *
+  module * { export * }
+}
+
+module CheckoutAndPaymentUI.Swift {
+  header "CheckoutAndPaymentUI-Swift.h"
+  requires objc
+}

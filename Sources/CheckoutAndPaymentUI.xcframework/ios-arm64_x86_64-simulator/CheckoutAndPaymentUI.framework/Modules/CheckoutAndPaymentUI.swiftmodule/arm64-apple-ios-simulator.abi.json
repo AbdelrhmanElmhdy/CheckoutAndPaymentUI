@@ -1,0 +1,511 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CheckoutAndPaymentUIConfig",
+        "printedName": "CheckoutAndPaymentUIConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "test",
+            "printedName": "test",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CheckoutAndPaymentUI0abC8UIConfigP4testSSvp",
+            "mangledName": "$s20CheckoutAndPaymentUI0abC8UIConfigP4testSSvp",
+            "moduleName": "CheckoutAndPaymentUI",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CheckoutAndPaymentUI0abC8UIConfigP4testSSvg",
+                "mangledName": "$s20CheckoutAndPaymentUI0abC8UIConfigP4testSSvg",
+                "moduleName": "CheckoutAndPaymentUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : CheckoutAndPaymentUI.CheckoutAndPaymentUIConfig>",
+                "sugared_genericSig": "<Self where Self : CheckoutAndPaymentUI.CheckoutAndPaymentUIConfig>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "test2",
+            "printedName": "test2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CheckoutAndPaymentUI0abC8UIConfigP5test2SSvp",
+            "mangledName": "$s20CheckoutAndPaymentUI0abC8UIConfigP5test2SSvp",
+            "moduleName": "CheckoutAndPaymentUI",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CheckoutAndPaymentUI0abC8UIConfigP5test2SSvg",
+                "mangledName": "$s20CheckoutAndPaymentUI0abC8UIConfigP5test2SSvg",
+                "moduleName": "CheckoutAndPaymentUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : CheckoutAndPaymentUI.CheckoutAndPaymentUIConfig>",
+                "sugared_genericSig": "<Self where Self : CheckoutAndPaymentUI.CheckoutAndPaymentUIConfig>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20CheckoutAndPaymentUI0abC8UIConfigP",
+        "mangledName": "$s20CheckoutAndPaymentUI0abC8UIConfigP",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CheckoutAndPaymentView",
+        "printedName": "CheckoutAndPaymentView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CheckoutAndPaymentUI0abC4ViewV4bodyQrvp",
+            "mangledName": "$s20CheckoutAndPaymentUI0abC4ViewV4bodyQrvp",
+            "moduleName": "CheckoutAndPaymentUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CheckoutAndPaymentUI0abC4ViewV4bodyQrvg",
+                "mangledName": "$s20CheckoutAndPaymentUI0abC4ViewV4bodyQrvg",
+                "moduleName": "CheckoutAndPaymentUI",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CheckoutAndPaymentView",
+                "printedName": "CheckoutAndPaymentUI.CheckoutAndPaymentView",
+                "usr": "s:20CheckoutAndPaymentUI0abC4ViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewModel",
+                "printedName": "CheckoutAndPaymentUI.CheckoutAndPaymentView.ViewModel",
+                "usr": "s:20CheckoutAndPaymentUI0abC4ViewV0E5ModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20CheckoutAndPaymentUI0abC4ViewV9viewModelA2C0eG0C_tcfc",
+            "mangledName": "$s20CheckoutAndPaymentUI0abC4ViewV9viewModelA2C0eG0C_tcfc",
+            "moduleName": "CheckoutAndPaymentUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ViewModel",
+            "printedName": "ViewModel",
+            "declKind": "Class",
+            "usr": "s:20CheckoutAndPaymentUI0abC4ViewV0E5ModelC",
+            "mangledName": "$s20CheckoutAndPaymentUI0abC4ViewV0E5ModelC",
+            "moduleName": "CheckoutAndPaymentUI",
+            "isFromExtension": true,
+            "hasMissingDesignatedInitializers": true
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20CheckoutAndPaymentUI0abC4ViewV",
+        "mangledName": "$s20CheckoutAndPaymentUI0abC4ViewV",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeliveryDetailsSection",
+        "printedName": "DeliveryDetailsSection",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20CheckoutAndPaymentUI22DeliveryDetailsSectionV4bodyQrvp",
+            "mangledName": "$s20CheckoutAndPaymentUI22DeliveryDetailsSectionV4bodyQrvp",
+            "moduleName": "CheckoutAndPaymentUI",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20CheckoutAndPaymentUI22DeliveryDetailsSectionV4bodyQrvg",
+                "mangledName": "$s20CheckoutAndPaymentUI22DeliveryDetailsSectionV4bodyQrvg",
+                "moduleName": "CheckoutAndPaymentUI",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ViewModel",
+            "printedName": "ViewModel",
+            "declKind": "Class",
+            "usr": "s:20CheckoutAndPaymentUI22DeliveryDetailsSectionV9ViewModelC",
+            "mangledName": "$s20CheckoutAndPaymentUI22DeliveryDetailsSectionV9ViewModelC",
+            "moduleName": "CheckoutAndPaymentUI",
+            "isFromExtension": true,
+            "hasMissingDesignatedInitializers": true
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20CheckoutAndPaymentUI22DeliveryDetailsSectionV",
+        "mangledName": "$s20CheckoutAndPaymentUI22DeliveryDetailsSectionV",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CheckoutAndPaymentUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/abdelrhmanelmahdy\/Projects\/Experimental\/XCFrameworks\/CheckoutAndPaymentUI\/CheckoutAndPaymentUI\/Subviews\/SectionViews\/PaymentInfoSection\/PaymentInfoSectionViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 14,
+      "value": "\"Payment Info\""
+    },
+    {
+      "filePath": "\/Users\/abdelrhmanelmahdy\/Projects\/Experimental\/XCFrameworks\/CheckoutAndPaymentUI\/CheckoutAndPaymentUI\/Subviews\/SectionViews\/PersonalInfoSection\/PersonalInfoSectionViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 15,
+      "value": "\"Personal Info\""
+    },
+    {
+      "filePath": "\/Users\/abdelrhmanelmahdy\/Projects\/Experimental\/XCFrameworks\/CheckoutAndPaymentUI\/CheckoutAndPaymentUI\/CheckoutAndPaymentViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 527,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abdelrhmanelmahdy\/Projects\/Experimental\/XCFrameworks\/CheckoutAndPaymentUI\/CheckoutAndPaymentUI\/Subviews\/SectionViews\/DeliveryDetailsSection\/DeliveryDetailsSectionViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 18,
+      "value": "\"Delivery Details\""
+    }
+  ]
+}

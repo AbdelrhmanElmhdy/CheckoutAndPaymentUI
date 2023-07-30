@@ -1,0 +1,39 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CheckoutAndPaymentUI
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import CheckoutAndPaymentUI
+import Combine
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+public protocol CheckoutAndPaymentUIConfig {
+  var test: Swift.String { get }
+  var test2: Swift.String { get }
+}
+extension CheckoutAndPaymentUI.CheckoutAndPaymentView {
+  @_hasMissingDesignatedInitializers public class ViewModel {
+    @objc deinit
+  }
+}
+public struct CheckoutAndPaymentView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public init(viewModel: CheckoutAndPaymentUI.CheckoutAndPaymentView.ViewModel)
+  public typealias Body = @_opaqueReturnTypeOf("$s20CheckoutAndPaymentUI0abC4ViewV4bodyQrvp", 0) __
+}
+public struct DeliveryDetailsSection {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s20CheckoutAndPaymentUI22DeliveryDetailsSectionV4bodyQrvp", 0) __
+}
+extension CheckoutAndPaymentUI.DeliveryDetailsSection {
+  @_hasMissingDesignatedInitializers public class ViewModel {
+    @objc deinit
+  }
+}
+extension CheckoutAndPaymentUI.DeliveryDetailsSection : SwiftUI.View {}
